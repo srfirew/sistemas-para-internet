@@ -1,0 +1,110 @@
+body{
+
+margin: 0;
+ 
+}
+
+#main{
+
+    text-align: center;
+    background-size: 1600px;
+    background-image: url("background.png");
+    
+
+
+}
+
+#main h1{
+    color: red;
+    text-shadow: 0.2em 0.2em 0.4em black;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 50px;
+}
+
+#main img{
+    margin-bottom: 200px;
+    box-shadow: 3px 3px 1rem #f03224;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#main img:hover{
+    margin-bottom: 200px;
+    box-shadow: 6px 6px 2rem #f03224;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#historia{
+
+    text-align: center;
+    background-color: #f28774;
+    padding-top: 60px;
+    height: 1400px;
+
+}
+
+#historia h1, h2{
+    color: #f6ff00;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+#historia h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#historia p {
+    margin: 5px;
+}
+
+#historia ul{
+    padding: 0;
+}
+
+#historia ul li{
+    list-style-type: none;
+    margin: 20px;
+}
+
+#historia details{
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid;
+    width: 325px;
+    height: 48px;
+    margin: auto;
+}
+
+#historia details summary{
+    padding: 15px;
+}
+
+#historia details summary:hover{
+    background-color: #fffb7a;
+}
+
+#historia details table{
+    background-color: white;
+    height: 400px;
+    width: 320px;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#historia details table tr th{
+    border: 3px solid;
+    
+}
+
+.ye{
+    background-color: #fffb7a;
+    padding: 5px;
+}
+
+
