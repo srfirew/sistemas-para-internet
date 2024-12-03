@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre-se</title>
+    <link href="registro.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9f7deab9bc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Cozinha rápida</h1>
+
+    <form id="form">
+        <div id="nome-container">
+            <input type="text" placeholder="Nome" maxlength="20" required>
+            <input type="text" placeholder="Sobrenome">
+        </div>
+
+        <div id="genero-container">
+            <div id="masculino" class="genero" >
+                <label>Masculino</label>
+                <input id="M" name="radio" type="radio" required>  
+            </div>
+
+            <div id="feminino" class="genero" >
+                <label>Feminino</label>
+                <input id="F" name="radio" type="radio"> 
+            </div>
+
+            <div id="outro" class="genero" >
+                <label>Outro</label>
+                <input id="O" name="radio" type="radio">  
+            </div>
+        </div>
+
+        <div id="email-container">
+            <input id="email" type="email" placeholder="E-mail" required>   
+        </div>
+
+        <div id="tel-container">
+            <input id="tel" type="tel" placeholder="Número de telefone" required>   
+        </div>
+
+        <div id="senha-container">
+            <input id="senha" type="password" placeholder="Nova senha" required>
+            <input id="confirmarsenha" type="password" placeholder="Confirmar nova senha" required>
+        </div>
+        
+        <div id="submit-container">
+            <input id="submit" type="submit" value="Registrar" onclick="alert('Registrado com sucesso!')">
+        </div>
+    </form>
+
+    <button id="voltar"><a style="text-decoration: none; color: black;" href="index.html">Voltar para o site</a></button>
+
+</body>
+</html>
