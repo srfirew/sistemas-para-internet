@@ -57,6 +57,12 @@ main h2{
     letter-spacing: 2px;
 }
 
+#s-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #projetos{
     margin-top: 50px;
     width: 200px;
