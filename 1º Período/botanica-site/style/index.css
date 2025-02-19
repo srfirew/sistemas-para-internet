@@ -18,6 +18,12 @@ main{
     align-items: center;
 }
 
+a{
+  color: black;
+  text-decoration: none; /* no underline */
+}
+}
+
 #stext{
     display: flex;
     flex-direction: column;
