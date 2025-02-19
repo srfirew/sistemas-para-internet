@@ -22,7 +22,6 @@ a{
   color: black;
   text-decoration: none; /* no underline */
 }
-}
 
 #stext{
     display: flex;
@@ -55,12 +54,6 @@ main h2{
     font-style: normal;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
     letter-spacing: 2px;
-}
-
-#s-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 #projetos{
