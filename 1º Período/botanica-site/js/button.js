@@ -6,7 +6,7 @@ const home = document.getElementById("home");
 
 home.addEventListener("click", () => {
 
-    window.location.href = "/index.html";
+    window.location.href = "https://srfirew.github.io/sistemas-para-internet/1%C2%BA%20Per%C3%ADodo/botanica-site/index.html";
 
     
 
