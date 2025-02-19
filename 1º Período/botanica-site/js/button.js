@@ -6,7 +6,7 @@ const home = document.getElementById("home");
 
 home.addEventListener("click", () => {
 
-    window.location.href = "https://srfirew.github.io/sistemas-para-internet/1%C2%BA%20Per%C3%ADodo/botanica-site/index.html";
+    window.location.href = "index.html";
 
     
 
@@ -18,7 +18,7 @@ const registro = document.getElementById("conectar");
 
 registro.addEventListener("click", () => {
 
-    window.location.href = "/conectar.html";
+    window.location.href = "conectar.html";
 
 })
 
@@ -28,7 +28,7 @@ const pesquisa = document.getElementById("pesquisa");
 
 pesquisa.addEventListener("click", () => {
 
-    window.location.href = "/pesquisas.html";
+    window.location.href = "pesquisas.html";
 
 })
 
