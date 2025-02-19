@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
     if (formLogin) {
         formLogin.addEventListener("submit", function (event) {
             event.preventDefault();
-            window.location.href = "https://srfirew.github.io/sistemas-para-internet/1%C2%BA%20Per%C3%ADodo/botanica-site/pesquisador.html";
+            const url = "https://srfirew.github.io/sistemas-para-internet/1º Período/botanica-site/pesquisador.html";
+            window.location.href = encodeURI(url);
         });
     }
 });
