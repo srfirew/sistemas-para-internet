@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Planta</title>
+    <link rel="stylesheet" href="../style/cadastro_styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Liter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h2>Projeto</h2>
+            <h2>Verde</h2>
+        </div>
+        <h1>Cadastrar Nova Planta</h1>
+        <nav>
+            <ul>
+                <li><button><a href="../pesquisador.html">Voltar</a></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="nome_cientifico">Nome Científico:</label>
+            <input type="text" id="nome_cientifico" name="nome_cientifico" required>
+
+            <label for="nome_comum">Nome Comum:</label>
+            <input type="text" id="nome_comum" name="nome_comum" required>
+
+            <label for="descricao">Descrição da Planta:</label>
+            <textarea id="descricao" name="descricao" rows="4" required></textarea>
+
+            <label for="foto_planta">Foto da Planta:</label>
+            <input type="file" id="foto_planta" name="foto_planta" accept="image/*" required>
+
+            <label for="classificacao_taxonomica">Classificação Taxonômica:</label>
+            <input type="text" id="classificacao_taxonomica" name="classificacao_taxonomica" required>
+
+            <label for="especies_relacionadas">Espécies Relacionadas:</label>
+            <input type="text" id="especies_relacionadas" name="especies_relacionadas">
+
+            <label for="status_conservacao">Status de Conservação:</label>
+            <input type="text" id="status_conservacao" name="status_conservacao" required>
+
+            <button type="submit">Cadastrar Planta</button>
+        </form>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+html{
+    height: 120%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 120%;
+}
+
+header{
+    background-color: #c2c5aa;
+    
+    height: 80px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+    box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.16);
+
+}
+
+h1{
+    font-family: Arial;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+    background-color: #9ca176;
+    border: none;
+}
+
+button:hover{
+    background-color: #696f53;
+    cursor: pointer;
+    color: #333d29;
+    transition: background-color 0.5s;
+}
+
+#title{
+    padding-left: 50px ;
+
+    opacity: 100%;
+    color: #6b9439;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-family: "Bungee", serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+}
+
+#title h2{
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+h1{
+    font: Arial;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h2,h3{
+    font-family: Arial;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    width: 332px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 15px;
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.card p strong {
+    color: #333;
+}

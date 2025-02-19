@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+
+    <link href="style/header.css" rel="stylesheet">
+    <link href="style/conectar.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Liter&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <header>
+
+        <div id="title">
+            <h2>Projeto</h2>
+            <h2>Verde</h2>
+        </div>
+
+        <nav>
+            <ul>
+                <li><button id="home" >Home</button></li>
+                <li><button id="pesquisa" >Pesquisa</button></li>
+                <li><button id="conectar" >Conectar-se</button></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section>
+            <div class="formulario" id="login">
+                <h1>Login</h1>
+                <form id="f-login" onsubmit="logar(event)">
+
+                    <div class="input-container">
+                        <img class="icon" src="img/conectar/email.png" >
+                        <input type="email" placeholder="Insira seu e-mail *">
+                    </div>
+
+                    <div class="input-container">
+                        <img class="icon" src="img/conectar/cadeado.png">
+                        <input type="password" placeholder="Confirme a senha *">
+                    </div>
+
+                    <input class="submit" id="logar" type="submit" value="Logar">
+                </form>
+            </div>
+        
+            <div style="border-left: 1px solid black; height: 60%; margin-bottom: 30px;";></div>
+
+            <div class="formulario" id="registro" >
+                <h1>Registro</h1>
+                <form id="f-registro">
+                    <div id="nome">
+
+                        <div class="input-container">
+                            <img class="icon" src="img/conectar/pessoa.png">
+                            <input type="text" name="Nome" placeholder="Insira seu nome *">
+                            <input type="text" name="Sobrenome" placeholder="Insira seu sobrenome *">
+                        </div>
+
+                    </div>
+
+                    <div class="input-container">
+                        <img  class="icon" src="img/conectar/mala.png">
+                        <input type="text" placeholder="Especializacão *">
+                    </div>
+
+                    <div class="input-container">
+                        <img  class="icon" src="img/conectar/email.png">
+                        <input type="email" placeholder="Insira seu e-mail *">
+                    </div>
+
+                    <div class="input-container">
+                        <img class="icon" src="img/conectar/cadeado.png">
+                        <input type="password" placeholder="Crie uma senha *">
+                    </div>
+
+                    <input class="submit" id="registrar" type="submit" value="Registrar">
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/button.js" ></script>
+
+</body>
+
+</html>
